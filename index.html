@@ -19,8 +19,10 @@
     </head>
 
     <body>
+
+        <!-- Header -->
         <header>
-            <nav class="navbar navbar-expand-lg bg-dark text-primary">
+            <nav class="navbar navbar-dark navbar-expand-lg bg-dark text-primary">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="#"><img src="./img/duck.png" class="w-25 " alt=""></a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,16 +31,16 @@
                   <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                       <li class="nav-item1">
-                        <a class="nav-link active text-white" aria-current="page" href="#">Catalogo libri</a>
+                        <a class="nav-link active" aria-current="page" href="#">Catalogo libri</a>
                       </li>
                       <li class="nav-item2">
-                        <a class="nav-link text-secondary" href="#">Anagrafica Utenti</a>
+                        <a class="nav-link" href="#">Anagrafica Utenti</a>
                       </li>
                       <li class="nav-item3">
-                        <a class="nav-link text-secondary" href="#">Storico prestiti</a>
+                        <a class="nav-link" href="#">Storico prestiti</a>
                       </li>
                       <li class="nav-item4">
-                        <a class="nav-link disabled text-secondary" aria-disabled="true">Help</a>
+                        <a class="nav-link disabled" aria-disabled="true">Help</a>
                       </li>
                     </ul>
                   </div>
@@ -47,7 +49,16 @@
             <!-- place navbar here -->
         </header>
         <main>
-
+            <div class="container">
+                <div class="row d-flex">
+                    <div class="col-6">
+                        <h2>Catalogo libri</h2>
+                    </div>
+                    <div class="col-6">
+                        <button type="button" class="btn btn-primary">Aggiungi libro</button>
+                    </div>
+                </div>
+            </div>
         </main>
         <footer>
             <!-- place footer here -->
